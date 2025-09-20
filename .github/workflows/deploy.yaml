@@ -2,7 +2,7 @@ name: deploy to ec2
 # triggering the workflow
 on:
 push:
-branch:
+branches:
   - cicd
 
 jobs:
