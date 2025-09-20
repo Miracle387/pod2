@@ -1,12 +1,12 @@
 name: deploy to ec2
-#triggering the workflow
+# triggering the workflow
 on:
 push:
 branch:
   - cicd
+  
 job:
-
-   deploy:
+ deploy:
 runs-on: ubuntu-latest
 steps:
 - name: checkout
