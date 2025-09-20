@@ -5,7 +5,7 @@ push:
 branch:
   - cicd
 
-job:
+jobs:
  deploy1:
 runs-on: ubuntu-latest
 steps:
