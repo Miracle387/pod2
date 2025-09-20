@@ -16,7 +16,7 @@ jobs:
       - name: run a linux command
         run: ls -la
 
-deploy2:
+  deploy2:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
