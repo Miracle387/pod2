@@ -4,9 +4,9 @@ on:
 push:
 branch:
   - cicd
-  
+
 job:
- deploy:
+ deploy1:
 runs-on: ubuntu-latest
 steps:
 - name: checkout
@@ -14,3 +14,13 @@ uses: action/checkout@v2
 
 -name: run a linux command
 run: ls -la
+
+
+deploy2:
+runs-on: ubuntu-latest
+steps:
+- name: checkout
+uses: action/checkout@v2
+
+-name: run a linux command
+run: cat index.html
